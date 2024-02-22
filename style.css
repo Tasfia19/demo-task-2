@@ -28,12 +28,15 @@
   box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
 }
 /* For Mobile Devices */
+/* For Mobile Devices */
 @media only screen and (max-width: 768px) {
   .container .box {
     width: 100%;
   }
   .container {
     width: 100%;
+    background-size: cover; /* Adjust background size */
+    background-position: center; /* Center the background */
   }
   .body {
     width: 100%;
@@ -63,6 +66,8 @@
   }
   .container {
     width: 100%;
+    background-size: cover; /* Adjust background size */
+    background-position: center; /* Center the background */
   }
   .body {
     width: 100%;
@@ -71,6 +76,7 @@
     transform: translate(380px, 150px); /* Adjusted values for tablet */
   }
 }
+
 
   form,
   .contact-info {
