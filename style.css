@@ -27,6 +27,7 @@
   backdrop-filter: blur(25px);
   box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
 }
+/* For Mobile Devices */
 @media only screen and (max-width: 768px) {
   .container .box {
     width: 100%;
@@ -34,10 +35,43 @@
   .container {
     width: 100%;
   }
-  body{
-    width:100%;
+  .body {
+    width: 100%;
   }
+  .container::after {
+    transform: translate(250px, 100px); /* Adjusted values for mobile */
   }
+  .contains {
+    flex-direction: column;
+    padding: 8% 0; /* Adjusted padding */
+    align-items: center;
+    justify-content: center;
+  }
+  .contains .section-1,
+  .contains .section-2 {
+    width: 100%; /* Adjusted width for mobile */
+    margin: 0; /* Remove margin */
+    padding: 0 20px; /* Adjusted padding */
+    text-align: center; /* Center align content */
+  }
+}
+
+/* For Tablet Devices */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .container .box {
+    width: 90%; /* Adjusted width for tablet */
+  }
+  .container {
+    width: 100%;
+  }
+  .body {
+    width: 100%;
+  }
+  .container::after {
+    transform: translate(380px, 150px); /* Adjusted values for tablet */
+  }
+}
+
   form,
   .contact-info {
     padding: 1.7rem 1.6rem;
