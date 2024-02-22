@@ -31,11 +31,12 @@
   .container .box {
     width: 100%;
   }
-  
-  .box {
-      width: 95%;
+  .container {
+    width: 100%;
   }
-  
+  body{
+    width:100%;
+  }
   }
   form,
   .contact-info {
