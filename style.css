@@ -490,9 +490,13 @@ opacity: 0.3;
 .social-media p {
   font-size: 0.8rem;
 }
-
+.title-1 {
+  font-size: 1.15rem;
+  color: #c17afc;
+}
 .title {
   font-size: 1.15rem;
+  text-align: center;
 }
 
 .social-icons a {
@@ -665,6 +669,12 @@ padding-top: 18px;
       height: fit-content;
       width:fit-content;
       margin-left: 10 auto;
+      }
+      .title {
+        font-size: 12px;
+        text-align: center;
+        color: #fff;
+
       }
       }
 
